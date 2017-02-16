@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script src="js\script.js" type="text/javascript"></script>
+    <title>Javascript Flashcard site</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="navbar-collapse">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                      </button>
+                <p class="navbar-brand" href="https://kurosakiaduma.github.io/flashcard/index.html">Javascript Flashcard</p>
+                <div class="navbar-collapse collapse">
+                    <div class="nav navbar-nav">
+                        <ul class="active"><a>Select a theme you would like to view the page in!</a></li>
+                            <div class="nav pull-right">
+                                <button id="bw" type="button" class="btn btn-default navbar-btn">
+           <i class="fa fa-cog"></i>
+           Black/White
+         </button>
+                                <button id="wb" type="button" class="btn btn-default navbar-btn">
+<i class="fa fa-cog"></i>
+White/Black
+</button>
+                                <button id="bb" type="button" class="btn btn-default navbar-btn">
+<i class="fa fa-cog"></i>
+Blue/White/Black
+</button>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Welcome to my Javascript Flashcard site</h2>
+                    <hr class="light">
+                    <p class="text-faded">Getting started on your Javascript, aren't you? This is a platform for all those who would want to know the simple definitions of term and concepts in JS.</p>
+                    </hr>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="col-lg-8 col-lg-offset-2">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <hr class="light">
+                    <h3 class="text-faded text-center">Click on the buttons below the terms to find out about each one of them</h3>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <h2 class="section-heading">Javascript</h2>
+                    <hr class="light">
+                    <!-- Trigger the modal with a button -->
+                    <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modal1">Definition</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal1" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Javascript</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p><strong>JavaScript</strong> is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the
+                                        objects of its environment to provide programmatic control over them..</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-4 text-center">
+                    <h2 class="section-heading">Operators</h2>
+                    <hr class="light">
+                    <!-- Trigger the modal with a button -->
+                    <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modal2">Definition</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal2" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Operators</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Let us take a simple expression <strong>4 + 5</strong> is equal to 9. Here 4 and 5 are called <strong>operands</strong> and ‘+’ is called the <strong>operator</strong>. JavaScript supports the following types of operators.
+                                        <ul>
+                                            <li>Arithmetic Operators</li>
+                                            <li>Comparision Operators</li>
+                                            <li>Logical (or Relational) Operators</li>
+                                            <li>Assignment Operators</li>
+                                            <li>Conditional (or ternary) Operators</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 text-center">
+                    <h2 class="section-heading">Variables</h2>
+                    <hr class="light">
+                    <!-- Trigger the modal with a button -->
+                    <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modal3">Definition</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal3" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Variable</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Like many other programming languages, JavaScript has variables. Variables can be thought of as named containers. You can place data into these containers and then refer to the data simply by naming the container. Before
+                                        you use a variable in a JavaScript program, you must declare it. Variables are declared with the <strong>var</strong> keyword.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 text-center">
+                    <h2 class="section-heading">Funtions</h2>
+                    <hr class="light">
+                    <!-- Trigger the modal with a button -->
+                    <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modal4">Definition</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal4" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Function</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Like the program itself, a function is composed of a sequence of statements called the function body. Values can be passed to a function, and the function will return a value. In JavaScript, functions are first-class
+                                        objects, because they can have properties and methods just like any other object.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 text-center">
+                    <h2 class="section-heading">String</h2>
+                    <hr class="light">
+                    <!-- Trigger the modal with a button -->
+                    <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modal5">Definition</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal5" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">String</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>A JavaScript string stores a series of characters like "John Doe". A string can be any text inside double or single quotes: var carname = "Volvo XC60"; var carname = 'Volvo XC60'; <strong>String indexes are zero-based</strong>:
+                                        The first character is in position 0, the second in 1, and so on.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-4 text-center">
+                    <h2 class="section-heading">Method</h2>
+                    <hr class="light">
+                    <!-- Trigger the modal with a button -->
+                    <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modal6">Definition</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal6" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Method</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>JavaScript methods are the actions that can be performed on objects. A JavaScript method is a property containing a function definition.</p>
+                                    <table class="table table-striped" id="tblGrid">
+                                        <thead id="tblHead">
+                                            <tr>
+                                                <th>Property</th>
+                                                <th>Value</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="text-left">firstName</td>
+                                                <td class="text-left">John</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td class="text-left">secondName</td>
+                                                <td class="text-left">Doe</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-left">fullName</td>
+                                                <td class="text-left">function() {return this.firstName + " " + this.lastName;}</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
